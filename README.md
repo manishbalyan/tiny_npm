@@ -10,7 +10,7 @@ npm i @manish_balyan/tiny
 # usage
 
 ```
-const tiny = require("@manish_balyan/tiny");
+const scrollToElement = require('@manish_balyan/tiny');
 
-tiny.scrollWithAnimation(htmlElement, to, duration, interval);
+scrollToElement(element, to, duration, interval);
 ```
