@@ -12,8 +12,8 @@ npm i @manish_balyan/tiny
 ```
 const tiny = require("@manish_balyan/tiny");
 
-tiny("So much space!");
-//=> "Somuchspace!"
+tiny("string with space!");
+//=> "stringwithspace!"
 
 tiny(1337);
 //=> Uncaught TypeError: Tiny wants a string!
