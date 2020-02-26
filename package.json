@@ -1,4 +1,12 @@
 {
-    "name": "@manish_balyan/tiny",
-    "version": "1.0.0"
+  "name": "@manish_balyan/tiny",
+  "version": "1.0.0",
+  "description": "Tiny npm package",
+  "license": "MIT",
+  "repository": "manishbalyan/tiny_npm",
+  "main": "index.js",
+  "keywords": [
+    "npm",
+    "package"
+  ]
 }
