@@ -12,11 +12,5 @@ npm i @manish_balyan/tiny
 ```
 const tiny = require("@manish_balyan/tiny");
 
-tiny("string with space!");
-//=> "stringwithspace!"
-
-tiny(1337);
-//=> Uncaught TypeError: Tiny wants a string!
-//    at tiny (<anonymous>:2:41)
-//    at <anonymous>:1:1
+tiny.scrollWithAnimation(htmlElement, to, duration, interval);
 ```
