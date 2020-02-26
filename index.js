@@ -21,7 +21,7 @@ const easeInOutQuad = (t, b, c, d) => {
  * @param {number} interval increment value for animation
  */
 
-export function scrollWithAnimation(element, to, duration, interval) {
+module.exports = function scrollWithAnimation(element, to, duration, interval) {
 	const start = element.scrollLeft;
 	let currentTime = 0;
 	const increment = interval;
